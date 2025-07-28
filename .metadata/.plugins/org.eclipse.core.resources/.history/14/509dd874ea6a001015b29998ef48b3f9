@@ -1,0 +1,11 @@
+package section02;
+
+public class EX02_28 {
+	public static void main(String[] args) {
+		
+		// double형 -> float형 강제 형 변환(float형 범위 내 값)
+		double d1 = 1.1234;
+		float f1 = (float)d1;
+		System.out.println("[double -> float] d1의 값 : " + d1 + "f1의 값: " + f1);
+	}
+}
