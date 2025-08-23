@@ -1,0 +1,8 @@
+package section03;
+
+public class EX03_11 {
+	public static void main(String[] args) {
+		inta result = 1000000 * 1000000L;
+		System.out.println(result);
+	}
+}

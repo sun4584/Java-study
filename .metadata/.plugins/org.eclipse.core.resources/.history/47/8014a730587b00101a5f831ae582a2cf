@@ -1,0 +1,19 @@
+package chapter01;
+
+public class G_Operator {
+	// 한 줄 주석 : ctrl + /
+	// 여러 줄 주석 : ctrl + shift + /
+	public static void main(String[] args) {
+		
+		// === 연산자(Operation) === //
+		// : 프로그램에서 데이터를 조작하거나 계산
+		
+		System.out.println("=== 산술 연산자 ===");
+		System.out.println(10 + 20); // 덧셈
+		System.out.println(10 - 20); // 뺄셈
+		System.out.println(10 * 20); // 곱셈(*)
+		
+		
+	}
+
+}

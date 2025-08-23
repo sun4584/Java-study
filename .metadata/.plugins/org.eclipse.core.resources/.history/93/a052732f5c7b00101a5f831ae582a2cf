@@ -1,0 +1,32 @@
+package chapter01;
+
+public class G_Operator {
+	// 한 줄 주석 : ctrl + /
+	// 여러 줄 주석 : ctrl + shift + /
+	public static void main(String[] args) {
+		
+		// === 연산자(Operation) === //
+		// : 프로그램에서 데이터를 조작하거나 계산
+		
+		System.out.println("=== 산술 연산자 ===");
+		System.out.println(10 + 20); // 덧셈
+		System.out.println(10 - 20); // 뺄셈
+		System.out.println(10 * 20); // 곱셈(*)
+		
+		System.out.println(21 / 10); // 나눗셈(/) - 나눈 결과의 몫을 저장
+		System.out.println(21 % 10); // 나눗셈(%) - 나눈 결과의 나머지를 저장
+		
+		System.out.println("=== 증감 연산자 ===");
+		// : 변수의 값을 1증가(++)시키거나 1감소(--)시키는 연산자
+		int number = 10;
+		
+		// 전위 증감 연산자 / 후위 증감 연산자
+		// 1) 전위 증감 연산자
+		// : 값이 먼저 변경되고 나서 계산에 적용
+		// : ++변수명, --변수명
+		System.out.println(++number);
+		System.out.println(--number);
+		
+	}
+
+}
