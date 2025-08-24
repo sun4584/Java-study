@@ -1,0 +1,25 @@
+package chapter02;
+
+public class C_For {
+	public static void main(String[] args) {
+		/*
+		 for문
+		 : 특정 조건이 만족될 때까지 코드 블록을 반복 실행
+		 >> 횟수를 지정(횟수가 정해져 있을 때)
+		 
+		 for(초기화; 조건; 증감) {
+		 	조건이 만족될 때까지 실행할 코드 블록
+		 }
+		 1. 초기화(Initialization)
+		 : 반복을 시작할 때 사용할 변수를 초기화하는 부분 (반복에 사용할 변수)
+		 2. 조건(Condition)
+		 : 반복이 실행될 조건을 정의하는 부분 (해당 조건이 참인 동안 반복문이 실행)
+		 3. 증감(Increment/Decrement)
+		 : 반복문의 각 실행이 끝나고 난 후 변수의 값을 증감하는 부분 (매 반복 시 실행)
+		 */
+		
+		for(int num = 1; num <= 5; num++) {
+			System.out.println(num);
+		}
+	}
+}
